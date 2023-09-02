@@ -1,0 +1,286 @@
+.boxatas{
+    width: 100%;
+    height: 50px;
+}
+.bgatas{
+    background-image: url(../gambar/wp1.jpg);
+}
+
+.gambar{
+    margin-top: 100px;
+}
+.gambar img {
+    width: 300px;
+    height: 300px;
+    
+}
+.portfolio b{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 0 0 100px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+}
+.perkenalan{
+    height: 100px;
+}
+.perkenalan b{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 0 0 100px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+}
+
+.box{
+	height: 10px;
+	width: 90%;
+    margin-top: 20px;
+    border-top-left-radius: 5cm;
+    border-bottom-left-radius: 5cm;
+    
+    
+}
+.name{
+    float: left;
+    font-size: 1.2cm;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 100px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+}
+.head{
+    margin-left: 50%;
+    background: rgba(0, 0, 0, 0.384);
+	height: 50px;
+	width: 56%;
+    border-top-left-radius: 5cm;
+    border-bottom-left-radius: 5cm;
+    font-family: sans-serif;
+}
+
+.head ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.head > ul > li {
+    float: left;
+}
+
+
+.head li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.boxtengah{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 500px;
+
+}
+.judul h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(218, 132, 3);
+}
+.ket1{
+    margin-left: 11%;
+}
+.ket1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ket1 > ul > li {
+    float: left;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    text-align: justify;
+    margin-left: 70px;
+}
+.ket2{
+    margin-left: 1%;
+}
+.ket2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ket2 ul li a{
+    float: left;
+    margin-left: 15%;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-top: 50px;
+}
+
+
+.logo{
+    margin-left: 5%;
+}
+.logo ul {
+    list-style-type: none;
+}
+
+.logo ul li {
+    float: left;
+    margin-top: 110px;
+}
+.logo ul li img{
+    width: 200px;
+    height: 200px;
+    margin-right: 60px;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    transition: .9s ease;
+    background-color: #5050508f;
+    border-radius: 10px;
+ }
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: rgb(218, 132, 3);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+.boxbawah{
+    height: 400px;
+}
+.boxdiri{
+    background-color:rgb(0, 0, 0) ;
+    height: 450px;
+    margin-top: 0;
+}
+.boxdiri h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(218, 132, 3);
+}
+.boxdiri img{
+    width: 450px;
+    height: 180px;
+    margin-top: 30px;
+}
+.boxdiri button{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(218, 132, 3);
+    border-radius: 10px;
+}
+.boxdiri button:hover{
+    background-color: #535353;
+    color: rgb(255, 255, 255)
+}
+.pesan h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.pesan{
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+.pesan table tr td b{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.pesan tr td input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.tombol{
+    width: 60px;
+    height: 40px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+}
+.tombol:hover{
+    background-color: #3c3d3c56;
+    color: rgb(0, 0, 0)
+}
+.akhir{
+    background-color: rgb(0, 0, 0);
+    height: 110px;
+}
+.akhir p{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.akhir ul li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.akhir ul {
+    list-style-type: none;
+    margin-left: 580px;
+    
+}
+
+.akhir ul li {
+    float: left;
+    
+}
+

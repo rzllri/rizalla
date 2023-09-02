@@ -1,0 +1,24 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.banner a{
+    font-size: 60px;
+    position: absolute;
+    z-index: 2;
+    color: rgb(228, 157, 5);
+}
